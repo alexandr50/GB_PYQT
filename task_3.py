@@ -3,10 +3,8 @@ from task_2 import host_range_ping
 
 
 def host_range_ping_tab():
-
     res_dict = host_range_ping(True)
     print()
-
     print(tabulate([res_dict], headers='keys'))
 
 
